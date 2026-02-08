@@ -33,6 +33,9 @@ uv sync
 # download weights
 uv run gdown https://drive.google.com/drive/folders/1AJPrtDFBpfgPQQj6f84KxVm7NGMMqHLD -O weights/ --folder
 
+# or manualy
+https://drive.google.com/drive/folders/1AJPrtDFBpfgPQQj6f84KxVm7NGMMqHLD?usp=sharing
+
 PYTHONPATH=stylegan2-pytorch uv run python3 -m src.gradio_server
 ```
 
